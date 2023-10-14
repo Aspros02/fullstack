@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.target {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: rgb(42, 44, 75);
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 700px;
+}
+
+span {
+    color: rgb(146, 216, 146);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    color: rgb(232, 232, 233);
+    margin-top: -10px;
+}
+
+button {
+    background-color: rgb(135, 173, 135);
+    padding: 10px 25px;
+    color: white;
+    border: 1px solid rgb(135, 173, 135);
+    border-radius: 8px;
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+.passwords {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin-block: 40px;
+}
+
+.pass {
+    background-color: rgb(60, 63, 109);
+    color: rgb(146, 216, 146);
+    padding: 10px 40px;
+}

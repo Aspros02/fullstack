@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedor {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 231, 231);
+    width: 450px;
+    border-radius: 20px;
+}
+
+.encabezado {
+    background-color: #6943FF;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 40px;
+    border-radius: 20px 20px 0 0;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 85px;
+    height: 60px;
+    margin-bottom: 20px;
+    background-color: #6943FF;
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    color: rgb(218, 218, 218);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#convert {
+    font-weight: bold;
+    padding: 9px 23px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #3c2c7e;
+    margin: 10px 0;
+}
+
+#length, #volume, #mass {
+    background-color: white;
+    width: 360px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+
+#conv-Le, #conv-Vo, #conv-Ma {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-stretch: extra-expanded;
+    font-weight: bold;
+}

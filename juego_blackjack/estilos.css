@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background: linear-gradient(#0b5808, #5f9e2c);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    font-weight: bold;
+}
+
+h1 {
+    color: goldenrod;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+#message-el {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+button {
+    padding: 5px;
+    background-color: goldenrod;
+    color: #0b5808;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#player-el {
+    text-transform: uppercase;
+    font-size: 20px;
+}
