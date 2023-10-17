@@ -115,13 +115,13 @@ header {
     width: 250px;
     border-radius: 70px;
     border: 5px solid var(--main-color);
-    transition: 0.2s linear;
+    /* transition: 0.2s linear; */
 }
 
-#img-autor:hover {
+/* #img-autor:hover {
     width: 300px;
     transition: 0.2s linear;
-}
+} */
 
 .textos {
     text-align: left;
@@ -131,6 +131,35 @@ header {
     line-height: 30px;
     text-align: justify;
     padding-right: 30px;
+}
+
+.redes-sociales-pres {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.redes-sociales-pres ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.redes-sociales-pres ul li {
+    font-size: 50px;
+}
+
+.redes-sociales-pres ul li a:hover {
+    color: var(--main-color);
+}
+
+.redes-sociales-pres ul li a {
+    text-decoration: none;
+    color: black;
 }
 
 /* CUADRO FORMACIÓN*/
@@ -549,6 +578,10 @@ footer p:hover {
         text-align: center;
     }
 
+    .redes-sociales-pres {
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 750px) {
